@@ -57,3 +57,39 @@ a {
 .submit_button {
     display: flex;
 }
+
+.advance_search {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.advanced_search_box {
+    gap: 5px;
+    padding: 50px;
+}
+
+.advanced_search_box div {
+    padding: 10px;
+    gap: 5px;
+}
+
+.advanced_search_box div input {
+    height: 25px;
+}
+
+#submit {
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: lightgrey;
+    background-color: darkblue;
+    border: 1px solid blue;
+}
+
+/* #submit_button {
+    display: flex;
+    justify-content: flex-end;
+} */

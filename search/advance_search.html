@@ -16,20 +16,41 @@
         <a href="/advance_search.html" class="index_current">Advanced Search</a>
     </div>
 
-    <div class="search">
-        <div>
-            <h1 id="logo">Google</h1>
-        </div>
-        <div class="search_box_round_corner">
-            <div class="search_box">
-                <form action="https://google.com/search">
-                    <input type="text" name="q" id="q">
+    <div class="advance_search">
+        <h1 id="advance_search_logo">Google</h1>
+        <p>advanced search<p>
+    </div>
+    <hr style="border: 1px solid #333">
+    <div class="advanced_search_box">
+        <form action="https://google.com/search">
+            <H4>Find pages with...</H4>
+            <br>
+            <div class="row">
+                <p class="col-2">all these words:</p>
+                <input class="col-4" type="text" name="as_q" id="as_q">
+                <p class="col-4">Type the important words: <b>tri-colour rat terrier</b></p>
             </div>
-        </div>
-        <div class="submit_button">
-            <input type="submit" value="Google Search">
-            </form>
-        </div>
+            <div class="row">
+                <p class="col-2">this exact word or phrase:</p>
+                <input class="col-4" type="text" name="as_epq" id="as_epq">
+                <p class="col-4">Put exact words in quotes: <b>"rat terrier"</b></p>
+            </div>
+            <div class="row">
+                <p class="col-2">any of these words:</p>
+                <input class="col-4" type="text" name="as_oq" id="as_oq">
+                <p class="col-4">Type <b>OR</b> between all the words you want: <b>miniature OR standard</b></p>
+            </div>
+            <div class="row">
+                <p class="col-2">none of these words:</p>
+                <input class="col-4" type="text" name="as_eq" id="as_eq">
+                <p class="col-4">Put a minus sign just before words that you don't want: <b>-rodent, -"Jack Russell"</b></p>
+            </div>
+            <div id = "submit_button" class="row">
+                <p class="col-5"></p>
+                <input class = "col-1" type="submit" id = "submit" value="Advanced Search">
+                <p class="col-6" style="background-color: blue;"></p>
+            </div>
+        </form>
     </div>
 
 </body>
